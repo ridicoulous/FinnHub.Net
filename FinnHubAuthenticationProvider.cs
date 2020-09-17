@@ -10,7 +10,7 @@ namespace FinnHub.Net
 {
     public class FinnHubAuthenticationProvider : AuthenticationProvider
     {
-        public FinnHubAuthenticationProvider(string key):base(new ApiCredentials(key,""))
+        public FinnHubAuthenticationProvider(string key):base(new ApiCredentials(key,key))
         {
 
         }

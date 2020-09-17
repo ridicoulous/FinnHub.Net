@@ -1,7 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Description>https://finnhub.io/ C# client</Description>
+    <Copyright>ridicoulous</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/ridicoulous/FinnHub.Net</RepositoryUrl>
+    <PackageTags>finnhub</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

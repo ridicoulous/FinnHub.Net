@@ -48,4 +48,6 @@ namespace FinnHub.Net.Objects
         [JsonProperty("x")]
         public List<string> Exchanges { get; set; }
     }
+
+
 }
